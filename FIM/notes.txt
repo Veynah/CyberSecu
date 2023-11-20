@@ -1,0 +1,7 @@
+Exactly same files will have same hashes
+To get the hash in powershell, you need to type "Get-FileHash 'nameOfTheFile' -Algorithm SHA1"
+Changing anything in the file will completly change the hash of the file
+Even putting a space at the end of a file for exemple will change the hash
+No matter what the size of the file, the size of the hash will still be the same, 160 bits
+Even if you empty the file, the hash will still be 160 bits
+The hash will be the same size depending on the hashing Algorithm
